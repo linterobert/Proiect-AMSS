@@ -1,4 +1,4 @@
-![E-commerce_platform_for_handmade_products](https://github.com/linterobert/Proiect-MOPS/assets/73032808/d5af3f91-ce5b-4cd9-8837-bae44c45f20a)# Proiect-MOPS
+# Proiect-MOPS
 
 #### **_Descrierea proiectului_**
 ArtisanMarket este mai mult decât o simplă platformă de comerț electronic; este un ecosistem dedicat pasionaților de produse handmade. Fiecare creator beneficiază de un profil personalizat, oferind cumpărătorilor o privire detaliată asupra poveștii și procesului lor de creație. Catalogul diversificat de produse handmade, de la bijuterii la decorațiuni și haine, adună o varietate de opere unice pentru toate gusturile. Sistemul transparent de recenzii și evaluări construiește încrederea în comunitatea ArtisanMarket, permițând cumpărătorilor să împărtășească experiențele lor și să aprecieze munca creatorilor.
