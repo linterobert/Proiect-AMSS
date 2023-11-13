@@ -23,5 +23,5 @@ ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pen
 
 #### **_Diagrama Gantt_**
 
-![image](https://github.com/linterobert/Proiect-MOPS/assets/73032808/7306adc6-2bdb-4572-9075-b62a8d26513f)
+![WhatsApp Image 2023-11-13 at 12 56 33_f60a862d](https://github.com/linterobert/Proiect-MOPS/assets/73032808/c49d0349-74ce-4f03-91db-41531ff32593)
 
