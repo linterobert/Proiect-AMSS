@@ -11,8 +11,6 @@ ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pen
 #### **_Diagrama Use-Case_**
 ![Use_case_diagram_E-commerce_platform_for_handmade_products](https://github.com/linterobert/Proiect-MOPS/assets/73032808/fb4384c5-393b-4d4c-abcc-5e7f8024b7f9)
 
-#### **_Diagrama UML_**
-
 #### **_Diagrama flowchart_**
 ![Flowchart_Diagram](https://github.com/linterobert/Proiect-MOPS/assets/80642370/cd3a77d9-f723-401b-9f46-3e1d84612235)
 
