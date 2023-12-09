@@ -1,0 +1,3 @@
+C:\Users\Asus ZenBook\source\repos\ProiectMOPS\ProiectMOPS.Application\obj\Debug\ProiectMOPS.Application.csproj.AssemblyReference.cache
+C:\Users\Asus ZenBook\source\repos\ProiectMOPS\ProiectMOPS.Application\obj\Debug\ProiectMOPS.Application.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus ZenBook\source\repos\ProiectMOPS\ProiectMOPS.Application\obj\Debug\ProiectMOPS.Application.csproj.CoreCompileInputs.cache
