@@ -155,6 +155,103 @@ namespace ProiectMOPS.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("ProiectMOPS.Domain.Models.Product", b =>
+                {
+                    b.Property<int>("ProductID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductID"), 1L, 1);
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<DateTime>("UpdateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ProductID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("ProiectMOPS.Domain.Models.ProductImage", b =>
+                {
+                    b.Property<int>("ProductImageID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductImageID"), 1L, 1);
+
+                    b.Property<int?>("ProductID")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<string>("URL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ProductImageID");
+
+                    b.HasIndex("ProductID");
+
+                    b.ToTable("ProductImages");
+                });
+
+            modelBuilder.Entity("ProiectMOPS.Domain.Models.Review", b =>
+                {
+                    b.Property<int>("ReviewID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReviewID"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ProductID")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<int>("StarNumber")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ReviewID");
+
+                    b.HasIndex("ProductID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Reviews");
+                });
+
             modelBuilder.Entity("ProiectMOPS.Domain.Models.User", b =>
                 {
                     b.Property<string>("Id")
@@ -269,6 +366,61 @@ namespace ProiectMOPS.Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("ProiectMOPS.Domain.Models.Product", b =>
+                {
+                    b.HasOne("ProiectMOPS.Domain.Models.User", "User")
+                        .WithMany("Products")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ProiectMOPS.Domain.Models.ProductImage", b =>
+                {
+                    b.HasOne("ProiectMOPS.Domain.Models.Product", "Product")
+                        .WithMany("Images")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("ProiectMOPS.Domain.Models.Review", b =>
+                {
+                    b.HasOne("ProiectMOPS.Domain.Models.Product", "Product")
+                        .WithMany("Reviews")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("ProiectMOPS.Domain.Models.User", "User")
+                        .WithMany("Reviews")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ProiectMOPS.Domain.Models.Product", b =>
+                {
+                    b.Navigation("Images");
+
+                    b.Navigation("Reviews");
+                });
+
+            modelBuilder.Entity("ProiectMOPS.Domain.Models.User", b =>
+                {
+                    b.Navigation("Products");
+
+                    b.Navigation("Reviews");
                 });
 #pragma warning restore 612, 618
         }

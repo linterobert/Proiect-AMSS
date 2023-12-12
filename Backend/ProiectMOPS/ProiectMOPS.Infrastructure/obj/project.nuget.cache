@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LcdvCzn25Je8vRc3+ZyA3hESSM6cAypuNDQFR/IegvxsgD1ZphSh83PsuuVdMhvvjp/iTW2YrF51N8saHjBUDQ==",
+  "dgSpecHash": "N17Tg88XICXjjev02k5WojDJx8dAkUKM6LnyDApWsqzpdefgrIUZjJqhvi8rehgJeLh/4xif1tAvJfSCCW2a3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Infrastructure\\ProiectMOPS.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus ZenBook\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Asus ZenBook\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Asus ZenBook\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Asus ZenBook\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Asus ZenBook\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Asus ZenBook\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

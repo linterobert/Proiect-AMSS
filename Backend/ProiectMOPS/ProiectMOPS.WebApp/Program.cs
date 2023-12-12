@@ -1,9 +1,13 @@
+using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using ProiectMOPS.Applications.Abstract;
+using ProiectMOPS.Applications.Commands.ProductCommands;
 using ProiectMOPS.Domain.Models;
 using ProiectMOPS.Infrastructure.Data;
+using ProiectMOPS.Infrastructure.Repositories;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +27,14 @@ builder.Services.AddControllersWithViews().AddNewtonsoftJson(options =>
 );
 
 builder.Services.AddSingleton<ILoggerFactory, LoggerFactory>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductImageRepository, ProductImageRepository>();
+builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<CreateProductCommand>(
+));
+//builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateProductCommand).GetExecutingAssembly()));
+builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<ProiectMOPSContext>();
 

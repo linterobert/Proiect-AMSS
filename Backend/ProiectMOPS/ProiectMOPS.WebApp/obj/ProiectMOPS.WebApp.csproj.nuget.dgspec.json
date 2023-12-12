@@ -4,6 +4,71 @@
     "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.WebApp\\ProiectMOPS.WebApp.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj",
+        "projectName": "ProiectMOPS.Applications",
+        "projectPath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj",
+        "packagesPath": "C:\\Users\\Asus ZenBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus ZenBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Infrastructure\\ProiectMOPS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,6 +93,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj": {
+                "projectPath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj"
+              },
               "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj": {
                 "projectPath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj"
               }
@@ -134,9 +202,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -161,6 +241,10 @@
               "version": "[6.0.14, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[8.0.0, )"
             },

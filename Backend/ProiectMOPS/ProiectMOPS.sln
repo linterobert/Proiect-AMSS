@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33529.622
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProiectMOPS.Domain", "ProiectMOPS\ProiectMOPS.Domain.csproj", "{75C5C8FA-41CC-4AE0-9BF0-5C910199A1E5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProiectMOPS.Infrastructure", "ProiectMOPS.Infrastructure\ProiectMOPS.Infrastructure.csproj", "{18FE7368-C21B-43B1-ABC2-C460BC51DD17}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF3E81A6-B96D-4C6C-A488-708FB5BFC870} = {BF3E81A6-B96D-4C6C-A488-708FB5BFC870}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProiectMOPS.WebApp", "ProiectMOPS.WebApp\ProiectMOPS.WebApp.csproj", "{097983E9-9760-40B9-B1A9-F5C7CDEDB47B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProiectMOPS.Applications", "ProiectMOPS.Applications\ProiectMOPS.Applications.csproj", "{BF3E81A6-B96D-4C6C-A488-708FB5BFC870}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +32,10 @@ Global
 		{097983E9-9760-40B9-B1A9-F5C7CDEDB47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{097983E9-9760-40B9-B1A9-F5C7CDEDB47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{097983E9-9760-40B9-B1A9-F5C7CDEDB47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3E81A6-B96D-4C6C-A488-708FB5BFC870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3E81A6-B96D-4C6C-A488-708FB5BFC870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3E81A6-B96D-4C6C-A488-708FB5BFC870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3E81A6-B96D-4C6C-A488-708FB5BFC870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
