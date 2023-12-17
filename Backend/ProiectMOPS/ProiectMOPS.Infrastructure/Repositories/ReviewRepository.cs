@@ -18,5 +18,13 @@ namespace ProiectMOPS.Infrastructure.Repositories
         {
             return _context.Reviews.Where(x => x.UserID == UserID).ToListAsync();
         }
+        public Task<Review> GetReviewByID(int ReviewID)
+        {
+            return _context.Reviews.Where(x => x.ReviewID == ReviewID).FirstOrDefaultAsync();
+        }
+        public async Task<List<Review>> GetAllReviews()
+        {
+            return await _context.Reviews.ToListAsync();
+        }
     }
 }

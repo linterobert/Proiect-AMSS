@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj": {}
+    "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj": {
+    "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj",
+        "projectUniqueName": "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj",
         "projectName": "ProiectMOPS.Applications",
-        "projectPath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj",
-        "packagesPath": "C:\\Users\\Asus ZenBook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\obj\\",
+        "projectPath": "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\ProiectMOPS.Applications.csproj",
+        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS.Applications\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus ZenBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj": {
-                "projectPath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj"
+              "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj"
               }
             }
           }
@@ -65,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj": {
+    "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj",
         "projectName": "ProiectMOPS.Domain",
-        "projectPath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj",
-        "packagesPath": "C:\\Users\\Asus ZenBook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus ZenBook\\Desktop\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\obj\\",
+        "projectPath": "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\ProiectMOPS.Domain.csproj",
+        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vlad\\Desktop\\ASP\\Proiect-MOPS\\Backend\\ProiectMOPS\\ProiectMOPS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus ZenBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

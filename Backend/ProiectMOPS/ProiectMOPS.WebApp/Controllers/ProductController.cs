@@ -37,7 +37,7 @@ namespace ProiectMOPS.WebApp.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, [FromBody] UpdateProductDTO dto)
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] UpdateProductDTO dto, CancellationToken cancellationToken)
         {
             _logger.LogInformation($"Update product with id {id}");
             var command = new UpdateProductCommand
@@ -48,7 +48,7 @@ namespace ProiectMOPS.WebApp.Controllers
                 Price = dto.Price,
                 Name = dto.Name,
             };
-            var result = await _mediator.Send(command);
+            var result = await _mediator.Send(command, cancellationToken);
             if (result == null)
             {
                 return NotFound("Product not found!");
@@ -57,14 +57,14 @@ namespace ProiectMOPS.WebApp.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProduct(int id)
+        public async Task<IActionResult> DeleteProduct(int id, CancellationToken cancellationToken)
         {
             _logger.LogInformation($"Delete product with ID {id}");
             var command = new DeleteProductCommand
             {
                 ProductID = id
             };
-            var result = await _mediator.Send(command);
+            var result = await _mediator.Send(command, cancellationToken);
             if (result == null)
             {
                 _logger.LogError("Product not found");

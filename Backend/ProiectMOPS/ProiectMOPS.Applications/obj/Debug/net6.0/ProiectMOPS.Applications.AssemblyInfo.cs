@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProiectMOPS.Applications")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+534f934ef68782b6a789d290fac75f9449fe3c86")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProiectMOPS.Applications")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProiectMOPS.Applications")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

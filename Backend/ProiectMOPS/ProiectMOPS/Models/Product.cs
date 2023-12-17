@@ -13,5 +13,7 @@
         public List<ProductImage> Images { get; set; }
         public List<Review> Reviews { get; set; }
 
+        public Product() { }
+
     }
 }

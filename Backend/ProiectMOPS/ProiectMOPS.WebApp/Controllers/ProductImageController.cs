@@ -37,14 +37,14 @@ namespace ProiectMOPS.WebApp.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProductImage(int id)
+        public async Task<IActionResult> DeleteProductImage(int id, CancellationToken cancellationToken)
         {
             _logger.LogInformation($"Delete product image with ID {id}");
             var command = new DeleteProductImageCommand
             {
                 ProductImageID = id
             };
-            var result = await _mediator.Send(command);
+            var result = await _mediator.Send(command, cancellationToken);
             if (result == null)
             {
                 _logger.LogError("Product image not found");

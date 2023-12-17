@@ -14,7 +14,7 @@ namespace ProiectMOPS.Infrastructure.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
-            optionBuilder.UseSqlServer(@"Data Source=(localdb)\local;Initial Catalog=EstateAppDatabase;Integrated Security=True");
+            optionBuilder.UseSqlServer(@"Data Source=DESKTOP-LCU5F5H;Initial Catalog=MOPS;Integrated Security=True");
 
             //optionBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=EstateAppDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         }

@@ -1,5 +1,8 @@
 ﻿using MediatR;
+using ProiectMOPS.Domain.DTOs;
 using ProiectMOPS.Domain.Models;
+using System.Diagnostics;
+using System.Xml.Linq;
 
 namespace ProiectMOPS.Applications.Commands.ReviewCommands
 {
@@ -9,5 +12,12 @@ namespace ProiectMOPS.Applications.Commands.ReviewCommands
         public string UserID { get; set; }
         public int StarNumber { get; set; }
         public int ProductID { get; set; }
+
+        public CreateReviewCommand(CreateReviewDTO dto)
+        {
+
+            Description = dto.Description;
+            StarNumber = dto.StarNumber;
+        }
     }
 }

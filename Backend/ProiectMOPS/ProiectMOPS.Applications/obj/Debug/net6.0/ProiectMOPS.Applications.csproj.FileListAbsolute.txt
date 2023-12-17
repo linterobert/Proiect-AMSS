@@ -13,3 +13,19 @@ C:\Users\Asus ZenBook\Desktop\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Appli
 C:\Users\Asus ZenBook\Desktop\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\refint\ProiectMOPS.Applications.dll
 C:\Users\Asus ZenBook\Desktop\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ProiectMOPS.Applications.pdb
 C:\Users\Asus ZenBook\Desktop\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ref\ProiectMOPS.Applications.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\bin\Debug\net6.0\ProiectMOPS.Applications.deps.json
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\bin\Debug\net6.0\ProiectMOPS.Applications.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\bin\Debug\net6.0\ProiectMOPS.Applications.pdb
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\bin\Debug\net6.0\ProiectMOPS.Domain.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\bin\Debug\net6.0\ProiectMOPS.Domain.pdb
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ProiectMOPS.Applications.csproj.AssemblyReference.cache
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ProiectMOPS.Applications.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ProiectMOPS.Applications.AssemblyInfoInputs.cache
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ProiectMOPS.Applications.AssemblyInfo.cs
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ProiectMOPS.Applications.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ProiectMOPS.Applications.csproj.CopyComplete
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ProiectMOPS.Applications.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ref\ProiectMOPS.Applications.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ProiectMOPS.Applications.pdb
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\ProiectMOPS.Applications.sourcelink.json
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\obj\Debug\net6.0\refint\ProiectMOPS.Applications.dll

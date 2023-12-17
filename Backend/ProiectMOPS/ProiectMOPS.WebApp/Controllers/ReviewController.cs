@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using ProiectMOPS.Applications.Commands.ReviewCommands;
 using ProiectMOPS.Applications.Queries.ReviewQueries;
 using ProiectMOPS.Domain.DTOs;
+using System.Threading;
 
 namespace ProiectMOPS.WebApp.Controllers
 {
@@ -37,14 +38,14 @@ namespace ProiectMOPS.WebApp.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteReview(int id)
+        public async Task<IActionResult> DeleteReview(int id, CancellationToken cancellationToken)
         {
             _logger.LogInformation($"Delete review with ID {id}");
             var command = new DeleteReviewCommand
             {
                 ReviewID = id
             };
-            var result = await _mediator.Send(command);
+            var result = await _mediator.Send(command, cancellationToken);
             if (result == null)
             {
                 _logger.LogError("Review not found");
@@ -54,7 +55,7 @@ namespace ProiectMOPS.WebApp.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateReview(int id, [FromBody] UpdateReviewDTO dto)
+        public async Task<IActionResult> UpdateReview(int id, [FromBody] UpdateReviewDTO dto, CancellationToken cancellationToken)
         {
             _logger.LogInformation($"Update product with id {id}");
             var command = new UpdateReviewCommand
@@ -63,7 +64,7 @@ namespace ProiectMOPS.WebApp.Controllers
                 StarNumber = dto.StarNumber,
                 ReviewID = id
             };
-            var result = await _mediator.Send(command);
+            var result = await _mediator.Send(command, cancellationToken);
             if (result == null)
             {
                 return NotFound("Review not found!");

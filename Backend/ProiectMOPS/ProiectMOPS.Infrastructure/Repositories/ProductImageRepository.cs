@@ -13,5 +13,15 @@ namespace ProiectMOPS.Infrastructure.Repositories
             return _context.ProductImages.Where(x => x.ProductID == ProductID).ToListAsync();
         }
 
+        public Task<ProductImage> GetProductImageById(int ProductImageID)
+        {
+            return _context.ProductImages.Where(x => x.ProductImageID == ProductImageID).FirstOrDefaultAsync();
+        }
+
+        public async Task<List<ProductImage>> GetAllProductImages()
+        {
+            return await _context.ProductImages.ToListAsync();
+        }
+
     }
 }

@@ -34,3 +34,23 @@ C:\Users\Asus ZenBook\Desktop\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infra
 C:\Users\Asus ZenBook\Desktop\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.pdb
 C:\Users\Asus ZenBook\Desktop\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.genruntimeconfig.cache
 C:\Users\Asus ZenBook\Desktop\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ref\ProiectMOPS.Infrastructure.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\bin\Debug\net6.0\ProiectMOPS.Infrastructure.deps.json
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\bin\Debug\net6.0\ProiectMOPS.Infrastructure.runtimeconfig.json
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\bin\Debug\net6.0\ProiectMOPS.Infrastructure.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\bin\Debug\net6.0\ProiectMOPS.Infrastructure.pdb
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\bin\Debug\net6.0\ProiectMOPS.Applications.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\bin\Debug\net6.0\ProiectMOPS.Domain.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\bin\Debug\net6.0\ProiectMOPS.Applications.pdb
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\bin\Debug\net6.0\ProiectMOPS.Domain.pdb
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.AssemblyInfo.cs
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.csproj.CopyComplete
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ref\ProiectMOPS.Infrastructure.dll
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.pdb
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.genruntimeconfig.cache
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\ProiectMOPS.Infrastructure.sourcelink.json
+C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Infrastructure\obj\Debug\net6.0\refint\ProiectMOPS.Infrastructure.dll

@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProiectMOPS.Applications
-build_property.ProjectDir = C:\Users\Asus ZenBook\Desktop\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\
+build_property.ProjectDir = C:\Users\Vlad\Desktop\ASP\Proiect-MOPS\Backend\ProiectMOPS\ProiectMOPS.Applications\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
