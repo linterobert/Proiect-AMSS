@@ -20,8 +20,20 @@ ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pen
 #### **_Diagrama bazei de date_**
 ![image](https://github.com/linterobert/Proiect-MOPS/assets/80642370/776f2b50-f8d5-4260-aec3-0992464f7803)
 
+#### **_Diagrama de pachete_**
+![859e44b3-a0d9-4283-8d31-1b4462ead17f](https://github.com/linterobert/Proiect-MOPS/assets/73032808/eecca53f-b993-4ee1-8d9a-f9016529228c)
 
-#### **_Diagrama Gantt_**
+#### **_Diagrama de pachete_**
+![859e44b3-a0d9-4283-8d31-1b4462ead17f](https://github.com/linterobert/Proiect-MOPS/assets/73032808/eecca53f-b993-4ee1-8d9a-f9016529228c)
+
+#### **_Diagrama de deployment_**
+![759bc3ab-9b23-4af1-abbd-3d20cb0e6f97](https://github.com/linterobert/Proiect-MOPS/assets/73032808/6b08a5fe-a0ef-4b3c-9f4a-22c66c03101c)
+
+#### **_Diagrama de deployment_**
+![759bc3ab-9b23-4af1-abbd-3d20cb0e6f97](https://github.com/linterobert/Proiect-MOPS/assets/73032808/6b08a5fe-a0ef-4b3c-9f4a-22c66c03101c)
+
+#### **_Diagrama de interactiune_**
+![seq](https://github.com/linterobert/Proiect-MOPS/assets/73032808/3c289bd8-4317-4bd7-bd48-1acd22023ee4)
 
 ![WhatsApp Image 2023-11-13 at 12 56 33_f60a862d](https://github.com/linterobert/Proiect-MOPS/assets/73032808/c49d0349-74ce-4f03-91db-41531ff32593)
 
