@@ -23,12 +23,6 @@ ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pen
 #### **_Diagrama de pachete_**
 ![859e44b3-a0d9-4283-8d31-1b4462ead17f](https://github.com/linterobert/Proiect-MOPS/assets/73032808/eecca53f-b993-4ee1-8d9a-f9016529228c)
 
-#### **_Diagrama de pachete_**
-![859e44b3-a0d9-4283-8d31-1b4462ead17f](https://github.com/linterobert/Proiect-MOPS/assets/73032808/eecca53f-b993-4ee1-8d9a-f9016529228c)
-
-#### **_Diagrama de deployment_**
-![759bc3ab-9b23-4af1-abbd-3d20cb0e6f97](https://github.com/linterobert/Proiect-MOPS/assets/73032808/6b08a5fe-a0ef-4b3c-9f4a-22c66c03101c)
-
 #### **_Diagrama de deployment_**
 ![759bc3ab-9b23-4af1-abbd-3d20cb0e6f97](https://github.com/linterobert/Proiect-MOPS/assets/73032808/6b08a5fe-a0ef-4b3c-9f4a-22c66c03101c)
 
