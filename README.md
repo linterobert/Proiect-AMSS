@@ -1,10 +1,10 @@
 # Proiect
 
 #### **_Contributie_**
-Linte Robert: 30%, diagrame: pachete, componente + backend
-Neacsu Vlad: 30%, diagrame: de stare, use-case + teste pe backend
-Cojocaru Vlad: 20%, diagrame: flowchart, uml + frontend
-Luca Cordus: 20%, diagrame: deployment, interactiune + frontend
+- Linte Robert: 30%, diagrame: pachete, componente + backend
+- Neacsu Vlad: 30%, diagrame: de stare, use-case + teste pe backend
+- Cojocaru Vlad: 20%, diagrame: flowchart, uml + frontend
+- Luca Cordus: 20%, diagrame: deployment, interactiune + frontend
 
 #### **_Descrierea proiectului_**
 ArtisanMarket este mai mult decât o simplă platformă de comerț electronic; este un ecosistem dedicat pasionaților de produse handmade. Fiecare creator beneficiază de un profil personalizat, oferind cumpărătorilor o privire detaliată asupra poveștii și procesului lor de creație. Fiecare profil ofera cumparatorilor si abilitatea de a-si salva produsele favorite. Catalogul diversificat de produse handmade, de la bijuterii la decorațiuni și haine, adună o varietate de opere unice pentru toate gusturile. Sistemul transparent de recenzii și evaluări construiește încrederea în comunitatea ArtisanMarket. Permite cumpărătorilor să împărtășească experiențele lor și să aprecieze munca creatorilor prin sistemul de review-uri.
