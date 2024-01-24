@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    border-bottom: 2px solid var(--s-orange);
+  }
+
+.navbar .header-media-logo{
+    max-width: 13%;
+}
+.navbar .media:hover{
+    opacity: 0.8;
+}
+.text-small{
+    font-size: 85% !important;
+}
+
+.nav-item {
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin:10px;
+    background: linear-gradient(45deg, #e03f62, #d1a146);
+}
+
+.nav-link {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    display: flex; /* Arrange the list items horizontally */
+    padding: 0;
+}

@@ -1,0 +1,12 @@
+.form-control {
+    margin-bottom: 5px;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.add-btn {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
